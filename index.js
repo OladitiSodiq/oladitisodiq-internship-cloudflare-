@@ -46,7 +46,8 @@ class ElementHandler {
 
     if (element.tagName === 'h1' && element.getAttribute('id') === 'title') {
       if (this.elementHandler === 'variant-1') {
-        element.setInnerContent("Twitter")
+    
+        element.setInnerContent("Github portfolio")
       } else {
         element.setInnerContent("Github")
       }
